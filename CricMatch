@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+	int T;
+	scanf("%d", &T);
+	
+	while(T--){
+	    int N,M;
+	    scanf("%d %d", &N, &M);
+	    (N==36*M)?printf("YES\n"):((N>36*M)?printf("NO\n"):printf("YES\n"));
+	}
+	return 0;
+}
